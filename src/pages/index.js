@@ -7,27 +7,35 @@ const Index = () => {
     return (
         <Layout>
             <div className={style.hero}>
-                <Image src="/images/index-hero.jpg" alt="hero" layout="fill" objectFit="cover" quality={90} />
+                <Image src="/images/title2.jpg" alt="hero" layout="fill" objectFit="cover" quality={90} />
                 <div className={style.textContainer}>
-                    <h1>I'm Abe Hiroki!</h1>
-                    <h3>JavaScript Developer</h3>
+                    <h1>Next.js Portfolio</h1>
+                    <h3>テスト作成</h3>
                 </div>
             </div>
             <div className={style.container}>
                 <div className={style.profile}>
                     <div>
-                        <h2>JavaScript Nerd</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h2>self-introduction</h2>
+                        <p>はじめまして。</p>
+                        <p>データアナリストを目指している小金澤匠です。</p>
+
+                        <p>趣味でNext.js・Reactを使いアプリを作っています。。</p>
+                        
+
+                        <p></p>
+
+                        
                     </div>
-                    <Image src="/images/profile.jpg" alt="hero" height={1195} width={1000} quality={90} /> 
+                    <Image src="/images/profile2.jpg" alt="hero" height={1195} width={1000} quality={90} /> 
                 </div>
                 <div className={style.skills}>
                     <h2>Skills</h2>
                     <div className={style.skillsContainer}>
-                        <div><img src="/images/javascript.svg" alt="javascript"/><span>JavaScript / 10 years</span></div>
-                        <div><img src="/images/react.svg"alt="react"/><span>React / 5 years</span></div>
-                        <div><img src="/images/gatsby.svg" alt="gatsby"/><span>Gatsby / 3 years</span></div>
-                        <div><img src="/images/next.svg" alt="next"/><span>Next.JS / 3 years</span></div>
+                        <div><img src="/images/javascript.svg" alt="javascript"/><span>JavaScript</span></div>
+                        <div><img src="/images/react.svg"alt="react"/><span>React</span></div>
+                        <div><img src="/images/gatsby.svg" alt="gatsby"/><span>(Gatsby)</span></div>
+                        <div><img src="/images/next.svg" alt="next"/><span>Next.JS</span></div>
                     </div>
                 </div>
                 <div className={style.ctaButton}>
